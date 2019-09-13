@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+echo $GIT_DIR
+GIT_DIR=$PWD
+echo $GIT_DIR
 FILES=$(go list ./...  | grep -v /vendor/)
 
 go test -tags=unit -timeout 30s -short -v ${FILES}
