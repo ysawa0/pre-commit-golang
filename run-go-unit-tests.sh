@@ -14,3 +14,7 @@ if [ $returncode -ne 0 ]; then
   echo "unit tests failed"
   exit 1
 fi
+
+/usr/local/bin/gofmt
+-w -s $FilePath$
+$FilePath$
