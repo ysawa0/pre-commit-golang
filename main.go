@@ -28,4 +28,7 @@ func main() {
 	}
 	wg.Wait()
 	fmt.Println(x)
+
+
+	
 }
