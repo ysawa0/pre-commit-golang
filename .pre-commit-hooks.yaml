@@ -7,7 +7,7 @@
 -   id: go-unit-tests
     name: 'go-unit-tests'
     entry: run-go-unit-tests.sh
-    files: '\.go$'
+    # files: '\.go$'
     language: 'script'
     description: "Runs `go test`"
 -   id: go-test
