@@ -9,7 +9,7 @@ repos:
 -   repo: git://github.com/ysawa0/pre-commit-golang.git
     rev: master
     hooks:
-      -   id: run-test
+      -   id: go-test
       # -   id: check-yaml
       # -   id: end-of-file-fixer
       # -   id: trailing-whitespace
