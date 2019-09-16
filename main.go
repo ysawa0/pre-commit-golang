@@ -5,7 +5,6 @@ package main
 import (
 	"fmt"
 	"sync"
-	//_ "sync"/
 )
 
 var x = 0
@@ -33,3 +32,4 @@ func main() {
 
 
 }
+
