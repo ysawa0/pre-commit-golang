@@ -65,6 +65,6 @@
 -   id: go-test
     name: 'go-test'
     entry: run-test.sh
-    files: '\.go$'
+#     files: '\.go$'
     language: 'script'
     description: "Runs `go build`, requires golang"    
