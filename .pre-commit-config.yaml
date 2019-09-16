@@ -7,7 +7,7 @@
 #       -   id: trailing-whitespace
 repos:
 -   repo: git://github.com/ysawa0/pre-commit-golang.git
-    rev: master
+    rev: v0.3.4
     hooks:
       -   id: go-unit-tests
       # -   id: check-yaml
