@@ -1,7 +1,15 @@
--   repo: git://github.com/pre-commit/pre-commit-hooks
-    rev: v0.7.1
+# -   repo: git://github.com/pre-commit/pre-commit-hooks
+#     rev: v0.7.1
+#     hooks:
+#       -   id: check-merge-conflict
+#       -   id: check-yaml
+#       -   id: end-of-file-fixer
+#       -   id: trailing-whitespace
+repos:
+-   repo: git://github.com/ysawa0/pre-commit-golang.git
+    rev: master
     hooks:
-      -   id: check-merge-conflict
-      -   id: check-yaml
-      -   id: end-of-file-fixer
-      -   id: trailing-whitespace
+      -   id: run-test
+      # -   id: check-yaml
+      # -   id: end-of-file-fixer
+      # -   id: trailing-whitespace
